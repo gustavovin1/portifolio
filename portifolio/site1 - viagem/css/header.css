@@ -1,0 +1,171 @@
+
+@media (max-width: 500px){
+.left-logo{
+    font-family: logo;
+}
+
+body{
+    font-family: text;
+}
+.header{
+    box-shadow: 0px 1px 50px var(--blue);
+    height: 8.5vh;
+    width: 100vw;
+    background-color: var(--grey);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:fixed;
+    z-index: 1;
+}
+.left-logo span{
+    float: left;
+}
+.left-logo img{
+    float: left;
+    padding-right: 5px ;
+}
+.left-logo{
+    height:max-content; 
+    font-size: 140%;
+    color: var(--blue);
+}
+.header a{
+    text-decoration: none;
+    transition: 1s;
+    color: var(--blue);
+    padding: 3px;
+    border: 1px solid transparent;
+}
+.options a {
+    padding: 7px ;    
+
+}
+.options{
+    width: max-content;
+}
+.links{
+    display: none;
+}
+.links:hover{
+    /* color: var(--yellow); */
+    transition: 0.2s;
+    box-shadow: 0px 0px 5px var(--blue);
+    border: 1px solid var(--blue);
+    border-radius: 3px;
+}
+.btn-login{
+    min-width: 60px;
+    width: 6vw;
+    font-family: text;
+    background-color: var(--blue);
+    margin: 4px;
+    padding:9px;
+    border: 1px solid var(--blue);
+    border-radius: 3px;
+    color: var(--grey);
+    transition: 0.5s;
+    cursor:pointer;
+}
+.btn-login:hover{
+    cursor:pointer;
+    transition: 0.3s;
+    color: var(--blue);
+    background-color: transparent;
+    border: 1px solid var(--blue);
+    box-shadow: 0px 0px 5px var(--blue);
+}
+.dock hr{
+    border-radius: 2px;
+    background-color: var(--blue);
+    margin: 2px ;
+    padding: 1px;
+}
+.dock{
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    margin-top:10px;
+    width: 30px;
+    height: 30px;
+}
+}
+
+@media (min-width: 500px){
+    .left-logo{
+        font-family: logo;
+    }
+    *{background-color: black !important; }
+    body{
+        font-family: text;
+    }
+    .header{
+        box-shadow: 0px 1px 50px var(--blue);
+        height: 8.5vh;
+        width: 100vw;
+        background-color: var(--grey);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position:fixed;
+        z-index: 1;
+    }
+    .left-logo span{
+        float: left;
+    }
+    .left-logo img{
+        float: left;
+        padding-right: 5px ;
+    }
+    .left-logo{
+        height:max-content; 
+        font-size: 140%;
+        color: var(--blue);
+    }
+    .header a{
+        text-decoration: none;
+        transition: 1s;
+        color: var(--blue);
+        padding: 3px;
+        border: 1px solid transparent;
+    }
+    .options a {
+       padding: 7px ;    
+    
+    }
+    .options{
+        width: max-content;
+    }
+    .links:hover{
+        /* color: var(--yellow); */
+        transition: 0.2s;
+        box-shadow: 0px 0px 5px var(--blue);
+        border: 1px solid var(--blue);
+        border-radius: 3px;
+    }
+    .btn-login{
+        min-width: 60px;
+        width: 6vw;
+        font-family: text;
+        background-color: var(--blue);
+        margin: 4px;
+        padding:9px;
+        border: 1px solid var(--blue);
+        border-radius: 3px;
+        color: var(--grey);
+        transition: 0.5s;
+        cursor:pointer;
+    }
+    .btn-login:hover{
+        cursor:pointer;
+        transition: 0.3s;
+        color: var(--blue);
+        background-color: transparent;
+        border: 1px solid var(--blue);
+        box-shadow: 0px 0px 5px var(--blue);
+    }
+    }
+    .active{
+        
+    }
