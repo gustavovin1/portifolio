@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(78, 78, 162), rgb(198, 134, 198));
+}
+.login-container{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.241);
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vw;
+}
+.login-container img{
+    width: 100px;
+    display: block;
+    margin-bottom: 10px;
+
+}
+.login-container input[type="email"], input[type="password"]{
+    padding: 3px;
+    width: 200px;
+    margin-top: 10px;
+    background-color: antiquewhite;
+    border-radius: 2px;
+    border: 0;
+}
+.login-container span{
+    text-align: center;
+    padding-top: 10px;
+    display: block;
+}
+.login-container input[type="button"]{
+    transition: 0.5s;
+    width: 70px;
+    height: 40px;
+    padding: 5px 10px;
+    cursor:pointer;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 3px solid rgba(0, 0, 0, 0.19) ;
+    background-position: -110px;
+    background-size:200px 300px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, rgba(78, 78, 162, 0.8), rgba(198, 134, 198, 0.8));
+}
+.login-container input[type="button"]:hover{
+    transition: 0.5s;
+    background-position: -10px;
+    transform: scale(1.1);
+}
