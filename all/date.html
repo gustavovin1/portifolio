@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //Adicionando a varivavel data
+         var data = new Date()
+        //Mostrando a data atual através da variavel
+         document.write('<hr>' + data)
+         document.write('<hr>' + data.toString())
+         document.write('<hr>' + data)
+        //Adicionando dias  a variavel e printando (setDAY**)
+         data.setDate(data.getDate() + 59) // - 59 faz a diminuição dos dias
+         document.write('<hr>' + data.toString())
+         //Adicionando MESES  a variavel e printando (setMONTH***)
+         data.setMonth(data.getMonth() + 59) // - 59 faz a diminuição dos meses
+         document.write('<hr>' + data.toString())
+          //Adicionando ANOS  a variavel e printando (setFULLYEAR***)
+          data.setFullYear(data.getFullYear() + 59) // - 59 faz a diminuição dos meses
+         document.write('<hr>' + data.toString())
+
+
+         //trabalhar entre distancias de datas 
+         var data1 = new Date(2017, 4, 15)
+         var data2 = new Date(2017, 5, 23)
+         document.write('<hr><hr><hr>')
+         document.write(data1 + '<hr>')
+         document.write(data2)
+        
+            
+        
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

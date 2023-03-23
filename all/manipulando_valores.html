@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .fundo{
+        width: 100%;
+        height: 100%;
+    }
+    .green{
+        background-color: green;
+    }
+    .red{
+        background-color: red;
+    }
+    .black{
+        background-color: black;
+    }
+    </style>
+</head>
+<body> 
+    <button onclick="mudacor(green)" id="green">Verde</button>
+    <button onclick="mudacor(red)" id="red">red</button>
+    <button onclick="mudacor(black)" red="black">preto</button>
+    <div id="fundo" class="fundo"></div>
+</body>
+<script>
+        var fundo = document.getElementById("fundo");
+        function mudacor(cor){
+        switch(cor){
+        case green:
+              document.getElementById('fundo').classList.add(green);
+              break;
+        case red:
+                document.getElementById('fundo').classList.add(".red");
+        }
+    }
+</script>
+</html>
