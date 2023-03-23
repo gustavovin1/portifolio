@@ -2,21 +2,36 @@
     margin: 0;
     border: 0;
 }
+@keyframes sumir {
+    100%{
+        opacity: 1;
+    }
+    0% {
+        opacity: 0;
+    }
+}
 
 body{
     font-family:Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to right, rgb(78, 78, 162), rgb(198, 134, 198));
 }
 .pop-insert{
-    color: brown;
-    width: 300px;
-    height: 100px;
-    position: absolute;
-    background-color: rgba(0, 137, 0, 0.569);
+    animation: sumir 2s reverse both linear;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: calc(10%);
+    margin-left: calc(50% - 100px) ;
+    color: green;
+    font-size: 17px;
+    width: 200px;
+    height: 70px;
+    position: fixed;
+    background-color: rgb(95, 255, 95);
     border: 2px solid green;
-    border-radius: 10%;
+    border-radius: 20px;
 }
-/* 
 .login-container{
     width: 400px;
     height: 300px;
@@ -69,4 +84,4 @@ body{
     transition: 0.5s;
     background-position: -10px;
     transform: scale(1.1);
-} */
+} 

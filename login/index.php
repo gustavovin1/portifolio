@@ -18,10 +18,9 @@ if(isset($_POST['usuario'])){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="a.css">
 </head>
 <body>
-<div class="pop-insert">inserido com sucesso</div>
     <form method="post" class="login-container">
         <img src="usuario-de-perfil.png" alt="">
         <input type="email" name="usuario" required placeholder="dude@email.com" id="email">
