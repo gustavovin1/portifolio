@@ -21,6 +21,7 @@ if(isset($_POST['usuario'])){
     <link rel="stylesheet" href="a.css">
 </head>
 <body>
+<a href="registros.php" class="registros">Registros</a>
     <form method="post" class="login-container">
         <img src="usuario-de-perfil.png" alt="">
         <input type="email" name="usuario" required placeholder="dude@email.com" id="email">
