@@ -1,13 +1,11 @@
 <?php
-    $pdo = new PDO('mysql:host=localhost;dbname=login','root','root');
-    $pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
+    require ('conexao.php');
 //insert
 if(isset($_POST['usuario'])){
     $sql = $pdo->prepare("INSERT INTO usuario(usuario, senha) VALUES(?,?)");
     $sql->execute(array($_POST['usuario'], $_POST['senha']));
     echo '<div class="pop-insert">inserido com sucesso</div>';
 }
-
 
 ?>
 

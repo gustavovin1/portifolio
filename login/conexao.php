@@ -5,5 +5,6 @@
     // define('DB', 'login');
 
     // $conexao = mysqli_connect(HOST, USUARIO, SENHA, DB) or die ('Não foi possível conectar');
-    $pdo = new PDO('mysql:localhost;dbname=login','root','root');
+    $pdo = new PDO('mysql:host=172.27.3.11;dbname=login','app','123');
+    $pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 ?>
